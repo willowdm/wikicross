@@ -1,0 +1,34 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited WebBrowser1: TWebBrowser
+    EnableCaching = False
+    Align = Client
+    Size.Width = 450.000000000000000000
+    Size.Height = 641.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Button1: TButton
+    Align = Bottom
+    Position.Y = 651.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.PlatformDefault = False
+    Text = #1055#1086#1077#1093#1072#1083#1080
+    OnClick = Button1Click
+  end
+  inherited Timer1: TTimer [2]
+    Enabled = False
+    OnTimer = Timer1Timer
+  end
+  inherited ProgressBar1: TProgressBar [3]
+    Align = Top
+    Size.Width = 450.000000000000000000
+    Size.PlatformDefault = False
+    Value = 100.000000000000000000
+  end
+  inherited Timer2: TTimer
+    Enabled = False
+    OnTimer = Timer2Timer
+  end
+end

@@ -1,0 +1,34 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object WebBrowser1: TWebBrowser
+    Position.X = 104.000000000000000000
+    Position.Y = 312.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 520.000000000000000000
+    TabOrder = 2
+    Text = 'Button1'
+  end
+  object ProgressBar1: TProgressBar
+    Orientation = Horizontal
+    Position.X = 176.000000000000000000
+    Position.Y = 424.000000000000000000
+  end
+  object Timer1: TTimer
+    Left = 344
+    Top = 560
+  end
+  object Timer2: TTimer
+    Left = 336
+    Top = 480
+  end
+end
